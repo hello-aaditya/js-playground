@@ -54,3 +54,34 @@ console.log(singer);
 console.log(typeof(singer));
 console.log(typeof(myFunction))
 
+
+console.log("***********************************")
+
+/* 
+stack => (Primitive), Heap => (Non-Primitive)
+*/
+
+let myCollege = "CMU"
+
+let anotherCollege = myCollege
+
+console.log(myCollege)
+console.log(anotherCollege);
+
+anotherCollege = "Stanford"
+console.log(myCollege);
+console.log(anotherCollege);
+
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "ramaswami@google.com"
+
+console.log(userOne);
+console.log(userTwo);
+
