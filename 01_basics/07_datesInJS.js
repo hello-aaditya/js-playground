@@ -30,6 +30,7 @@ console.log(newDate.getDay());
 console.log(newDate.getFullYear());
 console.log(newDate.getMonth());
 
+//print today's date
 const theDate = new Date()
 const todayDate = theDate.getDate();
 const todayMonth = theDate.getMonth();
