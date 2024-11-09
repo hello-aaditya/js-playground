@@ -45,3 +45,12 @@ console.log(obj4);
 */
 
 
+const course = {
+    courseName: "JS",
+    price: "999",
+    courseInstuctor: "Purav"
+}
+
+const {courseInstuctor} = course
+
+console.log((courseInstuctor));
