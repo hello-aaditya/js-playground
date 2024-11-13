@@ -7,6 +7,7 @@ while(myNum)
     myNum--;
 } */
 
+//do while
 let score = 15
 do
 {
@@ -14,3 +15,4 @@ do
     score++
 }
 while(score<=20)
+
